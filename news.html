@@ -1,44 +1,121 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="try.css">
 </head>
+
+<style>
+    .container{
+    display: flex;
+    column-gap: 30px;
+    height: 400px;
+    background: #1e376b;
+    }
+    .content{
+        margin-top: 10px;
+    flex: 25%;
+    color: black;
+    background: white;
+    font-weight: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    height: 380px;
+    margin-right: 10px;
+    }
+    .content img{
+        width: 100%;
+    }
+
+    .content img:hover{
+        scale: 1.05;
+        transition: 0.15s;
+    }
+    .content1{
+        background: white;
+        flex: 25%;
+        box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .s-news{
+        margin-top: 30px;
+        display: flex;
+        column-gap: 30px;
+        height: 400px;
+        background: #1e376b;
+        
+    }
+
+    .s-content{
+        flex: 25%;
+        background: white;
+        box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    .s-content img:hover{
+        scale: 1.05;
+        transition: 0.15s;
+    }
+</style>
+
+
+
 <body>
-   <img src="//dcs.ug.edu.gh/img/comScience_logo.png">
-    <ul>
-    <li><a  href="homepage.html">Home</a></li>
-    <li><a href="news.html" class="active">News</a></li>
-    <li><a href="about.html">About</a></li>
-  </ul>
-  
-  <div style="padding:20px;margin-top:30px;height:1500px;">
-    <h1>Fixed Top Navigation Bar</h1>
-    <h2>Scroll this page to see the effect</h2>
-    <h2>The navigation bar will stay at the top of the page while scrolling</h2>
-  
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-    <p>Some text some text some text some text..</p>
-  </div>
+    <header>
+        <header>
+            <a href="homepage.html" target="_blank"><img src="comScience_logo (1).png" width="250" height="-170" style="margin-bottom: 3%;"></a>
+        </header>
+    </header>
+    <div class="container">
+        <div class="content1">
+            <h1 style="text-decoration: underline; margin-top: 40%;">Recent News</h1>
+            <p>Welcome to the Computer Science News Hub</p>
+            <p>Here you can find news about activities and events at the University </p>
+        </div>
+        <div class="content">
+            <img src="photo_5_2023-11-27_18-14-31.jpg" width="100%" height="50%" alt="">
+            <p>UG and Nestlé Collaborate To Advance Sustainable and Affordable Nutrition</p>
+        </div>
+        <div class="content">
+            <img src="photo_2_2023-11-27_18-14-31.jpg" width="100%" height="50%" alt="">
+            <p>UG Claims Top Spot in Academic Research, Achieves Global Recognition in 2023 EduRank Ratings</p>
+        </div>
+        <div class="content">
+            <img src="nat.jpg" width="100%" height="50%" alt="">
+            <p>CoH Presents Maiden Annual Report and Internal Internship Programme to Vice-Chancellor</p>
+        </div>
+    </div>
+
+
+
+<div class="s-news">
+    <div class="s-content">
+        <img src="photo_3_2023-11-27_18-14-31.jpg" alt="" width="100%" height="50%" alt="">
+        <p>Prof. Eric Danquah Appointed to UK-CGIAR Centre's Science & Impact Advisory Grou</p>
+    </div>
+    <div class="s-content">
+        <img src="lee.jpg" alt="" width="100%" height="50%" alt="">
+        <p>UG Celebrates Pensioners - 398 Retirees Honoured at Send-Off Party</p>
+    </div>
+    <div class="s-content">
+        <img src="photo_4_2023-11-27_18-14-31.jpg" alt="" width="100%" height="50%" alt="">
+        <p>Republic Bank Donates to UG’s Student Financial Aid Office</p>
+    </div>
+    <div class="s-content">
+        <img src="eee.jpg" alt="" width="100%" height="50%" alt="">
+        <p>TEST for Ghana Donors Meet with Beneficiaries at UG</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 </body>
 </html>
