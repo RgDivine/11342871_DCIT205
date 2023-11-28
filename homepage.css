@@ -25,7 +25,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: rgb(118, 51, 119);
+  color: rgb(51, 66, 119);
   font-weight: bold;
 }
 
@@ -126,7 +126,7 @@ ul {
 }
 .details-container {
   display: flex;
-  background: rgb(187, 24, 201);
+  background: rgb(24, 86, 201);
   color: white;
   font: 18px, Arial;
 }
